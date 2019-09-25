@@ -1,0 +1,25 @@
+@import '../settings/settings.global';
+
+
+.o-article__container{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+@media only screen and (max-width: 1140px ) {
+    
+    .o-article__container{
+        grid-template-columns: auto auto auto;
+    }
+
+}
+@media only screen and (max-width: 760px ) {
+    .o-article__container{
+        grid-template-columns: auto auto;
+    }
+}
+@media only screen and (max-width: 480px ) {
+    .o-article__container{
+        grid-template-columns: 100%;
+        
+    }
+}

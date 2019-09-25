@@ -1,0 +1,37 @@
+// COLORS
+// $primary-color: #f2af2e;
+// $secondary-color: #f8ebcb;
+
+// $white: #fefdfc;
+// $ultra-light-grey: #E1EBEB;
+// $light-grey: #B7BFBF;
+// $medium-grey: #646969;
+// $dark-grey: #272929;
+$grey: #f7f7f7;
+$white: #ffffff;
+$black: #18191e;
+
+$secondary-color: #5092dc;
+$primary-color:#124176;
+
+
+
+
+// SIZES
+$container-width: 1200px;
+
+// GUTTER / GRID
+$gutter: 24;
+$basic-radius: 8px;
+$page-radius: #{ $gutter }px;
+$border-width: 2px;
+
+// BREAKPOINTS
+$phone-small: 320px;
+	  $phone: 480px;
+	 $tablet: 980px;
+	 $laptop: 1140px;
+
+// ANIMATIONS
+$speed: 200ms;
+$easing: ease-out;

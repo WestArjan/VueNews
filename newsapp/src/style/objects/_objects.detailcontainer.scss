@@ -1,0 +1,27 @@
+@import  '../settings/_settings.global';
+.c-detailcontainer{
+    width:60%;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    background-color:$white;
+}
+
+@media only screen and (max-width: 1140px ) {
+    .c-detailcontainer{
+        width:80%;
+    }
+
+}
+@media only screen and (max-width: 760px ) {
+    .c-detailcontainer{
+        width:90%;
+    }
+
+}
+@media only screen and (max-width: 480px ) {
+    .c-detailcontainer{
+        width:100%;
+    }
+
+}

@@ -1,0 +1,51 @@
+@import '../settings/settings.global';
+
+.c-detail {
+    background-color: $white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid $secondary-color;
+
+}
+
+.c-detail__title {
+    width: 80%;
+    font-size: 2em;
+    padding: 1em;
+    font-weight: 500;
+}
+
+.c-detail-img__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.c-detail__img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.c-detail__content {
+    width: 80%;
+    padding: 1em;
+}
+
+.c-detail__published {
+    width: 80%;
+    border-top: 2px solid $primary-color;
+    padding: 1em 0;
+}
+
+.c-detail__author {
+    color: $secondary-color;
+}
+
+.c-detail__time {
+    color: $primary-color;
+}

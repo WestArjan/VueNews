@@ -1,0 +1,14 @@
+@import '../settings/settings.global';
+
+.o-home{
+    width:80%;
+    margin:0 auto;
+}
+
+@media only screen and (max-width: 1140px ) {
+    
+    .o-home{
+        width:90%;
+    }
+
+}

@@ -1,0 +1,40 @@
+@import  '../settings/_settings.global';
+
+.e-header{
+    background-color:$black;
+    color:$white;
+    width:18%;
+    padding:.5% .2%;
+    margin:5% 0 0 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1140px ) {
+    
+    .e-header{
+        width:20%;
+    }
+
+}
+@media only screen and (max-width: 760px ) {
+    
+    .e-header{
+        width:30%;
+    }
+
+}
+@media only screen and (max-width: 600px ) {
+    
+    .e-header{
+        width:40%;
+    }
+
+}
+@media only screen and (max-width: 480px ) {
+    
+    .e-header{
+        width:60%;
+    }
+
+}

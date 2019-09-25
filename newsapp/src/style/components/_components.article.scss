@@ -1,0 +1,66 @@
+@import '../settings/settings.global';
+
+.c-article{
+    width:90%;
+    padding:0;
+    margin: 0 0 4em 0;
+    background:$white;
+
+}
+.c-article__headline{
+    font-size:1.2em;
+    font-weight:500;
+    margin:1em;
+}
+.c-article__summary{
+    font-size:.9em;
+    margin:2em;
+}
+.c-article__banner{
+    object-fit: cover;
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.c-article__author{
+    text-transform: capitalize;
+    margin:1em 0 0 2em;
+    color:$primary-color;
+}
+.c-article__time{
+    margin:0 0 0 2em;
+    color:$secondary-color;
+}
+.c-article__link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size:.9em;
+    color:$secondary-color;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-content: flex-end;
+
+}
+.c-article-link__text{
+    margin:1em 0 1.5em 0;
+    width:65%;
+    padding:.8em 1em;
+    border: 1px solid $secondary-color;
+    border-radius: 5px; 
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    bottom:0;
+}
+.c-article-link__text:hover{
+     color:$white;
+     background-color: $secondary-color;    
+}
+
+@media only screen and (max-width: 480px ) {
+    .c-article{
+        width:100%;
+    }
+
+}
